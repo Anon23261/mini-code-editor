@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+.editor-container, .preview-container {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    font-family: monospace;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+}
+#preview {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+h2 {
+    font-size: 1.2rem;
+    color: #333;
+}
